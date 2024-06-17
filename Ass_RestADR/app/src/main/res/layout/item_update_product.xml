@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    android:layout_margin="5dp"
+    android:orientation="vertical"
+    android:background="#D7DADC"
+    >
+
+    <EditText
+        android:id="@+id/edtUDNameP"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Nhập vào tên sản phẩm"
+        android:backgroundTint="#ffff"
+        android:background="@drawable/khung"
+        android:layout_marginBottom="5dp"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/edtUDMTP"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:backgroundTint="#ffff"
+        android:background="@drawable/khung"
+        android:hint="Miêu tả"
+        android:layout_marginBottom="5dp"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/edtUDPriceP"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Nhập vào giá"
+        android:backgroundTint="#ffff"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/khung"
+        android:textSize="20dp" />
+
+    <Spinner
+        android:id="@+id/spnUDCate"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+    <TextView
+        android:id="@+id/txtUDCate"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:backgroundTint="#ffff"
+        android:background="@drawable/khung"/>
+    <Button
+        android:id="@+id/btnUDPrd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="cập nhật"/>
+
+
+</LinearLayout>

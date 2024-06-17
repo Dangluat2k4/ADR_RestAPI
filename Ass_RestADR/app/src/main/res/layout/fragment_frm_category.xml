@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".frm_category">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#D8D8D8"
+        tools:context=".MainActivity">
+
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rscCTG"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fltAddCTG"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|bottom"
+            android:layout_margin="20sp"
+            android:src="@drawable/plus"
+            />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</FrameLayout>

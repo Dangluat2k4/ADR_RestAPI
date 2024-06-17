@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ECDBDB"
+    android:padding="20dp"
+    android:layout_margin="5dp"
+    android:orientation="vertical"
+    >
+    <EditText
+        android:id="@+id/edtAddDateB"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Nhập vào ngày tháng"
+        android:background="@drawable/khung"
+        android:backgroundTint="#ffff"
+        android:layout_marginTop="5dp"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Mail :"
+        android:layout_marginTop="5dp"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    <Spinner
+        android:id="@+id/spnAddEmailB"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+    <TextView
+        android:id="@+id/txtUDEM"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/khung"
+        android:backgroundTint="#ffff"
+        android:layout_marginTop="5dp"
+        />
+    <Button
+        android:id="@+id/btnAddBill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Thêm mới"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/khung"/>
+</LinearLayout>

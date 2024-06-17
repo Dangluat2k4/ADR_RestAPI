@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="@drawable/khung">
+
+    <LinearLayout
+        android:layout_width="320sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="5sp"
+            android:text="Name"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtPrice"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="5sp"
+            android:text="Price"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtDEC"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="5sp"
+            android:text="Description"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtSoLuong"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="5sp"
+            android:text="Price"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="70sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnDeleteCart"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginBottom="10sp"
+            android:background="@drawable/delete" />
+    </LinearLayout>
+</LinearLayout>

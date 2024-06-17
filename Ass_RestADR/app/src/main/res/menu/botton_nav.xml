@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/botton_home"
+        android:icon="@drawable/baseline_home_24"
+        android:title="Home" />
+    <item
+        android:id="@+id/botton_1"
+        android:icon="@drawable/bill"
+        android:title="Bill" />
+    <item
+        android:id="@+id/botton_3"
+        android:icon="@drawable/option"
+        android:title="Cate" />
+    <item
+        android:id="@+id/botton_2"
+        android:icon="@drawable/user"
+        android:title="Person" />
+
+
+</menu>

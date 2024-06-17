@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/khung"
+    android:layout_margin="10dp"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="320sp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        >
+        <TextView
+            android:text="So luong"
+            android:layout_marginTop="5sp"
+            android:id="@+id/txtSoLuong"
+            android:layout_width="match_parent"
+            android:textSize="20sp"
+            android:layout_height="50dp"/>
+        <TextView
+            android:text="Tong tien"
+            android:layout_marginTop="5sp"
+            android:id="@+id/txtTongTien"
+            android:layout_width="match_parent"
+            android:textSize="20sp"
+            android:layout_height="50dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="70sp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        >
+
+        <Button
+            android:id="@+id/btnDeleteBDT"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginBottom="10sp"
+            android:background="@drawable/delete" />
+        <Button
+            android:id="@+id/btnUpdateBDT"
+            android:layout_width="30dp"
+            android:layout_height="33dp"
+            android:background="@drawable/baseline_browser_updated_24"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#E4DEDE"
+    android:padding="20dp"
+    android:layout_margin="5dp"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edtNameP"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Nhập vào tên sản phẩm"
+        android:background="@drawable/khung"
+        android:backgroundTint="#ffff"
+        android:layout_marginTop="5dp"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/edtMTP"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Miêu tả"
+        android:background="@drawable/khung"
+        android:backgroundTint="#ffff"
+        android:layout_marginTop="5dp"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/edtPriceP"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Nhập vào giá"
+        android:background="@drawable/khung"
+        android:backgroundTint="#ffff"
+        android:layout_marginTop="5dp"
+        android:textSize="20dp" />
+    <Spinner
+        android:id="@+id/spnCate"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:background="@drawable/khung"
+        android:backgroundTint="#ffff"
+        android:layout_height="50dp"/>
+    <TextView
+        android:id="@+id/txtCate"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/khung"
+        android:backgroundTint="#ffff"
+        android:layout_marginTop="5dp"/>
+    <Button
+        android:id="@+id/btnAddNewPrd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Thêm mới"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/khung"
+        />
+
+</LinearLayout>

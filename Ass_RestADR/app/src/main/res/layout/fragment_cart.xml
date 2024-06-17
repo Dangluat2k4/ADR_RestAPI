@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/khung1"
+    android:layout_marginTop="35dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:backgroundTint="#FBC9C9"
+    tools:context=".cart">
+
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        tools:context=".MainActivity">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:orientation="vertical"
+            android:layout_marginTop="30dp"
+            >
+            <TextView
+                android:id="@+id/txtProductId"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/khung"
+                android:backgroundTint="#FFFFFF"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                />
+            <TextView
+                android:id="@+id/txtProductName"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/khung"
+                android:backgroundTint="#FFFFFF"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                >
+
+                <TextView
+                    android:id="@+id/txtProductDescription"
+                    android:layout_width="180dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/khung"
+                    android:backgroundTint="#FFFFFF"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    />
+                <TextView
+                    android:id="@+id/txtProductPrice"
+                    android:layout_width="180dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/khung"
+                    android:backgroundTint="#FFFFFF"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnAddCart"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:backgroundTint="#33A52B"
+                android:layout_gravity="center"
+                android:text="thêm mới"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="20dp"
+                >
+                <EditText
+                    android:id="@+id/edtFindCart"
+                    android:layout_width="350dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/khung"
+                    android:backgroundTint="#FFFFFF"
+                    android:layout_marginLeft="5dp"
+                    android:hint="tìm kiếm theo bill"/>
+                <ImageButton
+                    android:id="@+id/btnFindCart"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/search"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="3dp"
+                    />
+            </LinearLayout>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rscCart"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+</FrameLayout>

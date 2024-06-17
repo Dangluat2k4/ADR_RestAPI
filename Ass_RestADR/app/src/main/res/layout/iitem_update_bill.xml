@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    android:layout_margin="5dp"
+    android:background="#DBECEF"
+    android:orientation="vertical"
+    >
+    <EditText
+        android:id="@+id/edtUpdateB"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/khung"
+        android:backgroundTint="#fff"
+        android:hint="Nhập vào tên sản phẩm"
+        android:textSize="20dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Email:"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"/>
+
+    <Spinner
+        android:id="@+id/spnUDMailB"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+    <TextView
+        android:id="@+id/txtMail"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/khung"
+        android:backgroundTint="#fff"
+        />
+    <Button
+        android:id="@+id/btnUDBill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="cập nhật"/>
+</LinearLayout>
